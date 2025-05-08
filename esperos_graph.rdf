@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns="http://example.org/esperos#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/esperos#Marioga_Marcha">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Μαριόγκα Μάρχα</rdfs:label>
+    <age>10</age>
+    <type>Κορίτσι</type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#isChildOf">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#isSiblingOf">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Glafkos_Petroxoritis">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Γλαύκος Πετροχωρίτης</rdfs:label>
+    <role>Κεντρικός Ήρωας</role>
+    <occupation>Αστρονόμος</occupation>
+    <trait>Ορφανός</trait>
+    <trait>Ονειροπόλος</trait>
+    <loved rdf:resource="http://example.org/esperos#Danae_Marcha"/>
+    <isFriendOf rdf:resource="http://example.org/esperos#Dondos_Pitsilas"/>
+    <observes rdf:resource="http://example.org/esperos#Esperos"/>
+    <observes rdf:resource="http://example.org/esperos#Vegas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Dondos_Pitsilas">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Ντόντος Πιτσιλάς</rdfs:label>
+    <trait>Χοντρός</trait>
+    <trait>Πρόσωπο Βοηθός</trait>
+    <isChildOf rdf:resource="http://example.org/esperos#Theano_Pitsila"/>
+    <isChildOf rdf:resource="http://example.org/esperos#Them_Pitsilas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Danae_Marcha">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Δανάη Μάρχα</rdfs:label>
+    <role>Κεντρική Ηρωίδα</role>
+    <trait>Όμορφη</trait>
+    <trait>Μυστηριώδης</trait>
+    <trait>Νεαρή</trait>
+    <isChildOf rdf:resource="http://example.org/esperos#Marchas"/>
+    <isSiblingOf rdf:resource="http://example.org/esperos#Margarita_Marcha"/>
+    <isSiblingOf rdf:resource="http://example.org/esperos#Marioga_Marcha"/>
+    <isSiblingOf rdf:resource="http://example.org/esperos#Adelfos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#hits">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#type">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Vegas">
+    <rdf:type rdf:resource="http://example.org/esperos#Star"/>
+    <rdfs:label>Βέγας</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Margarita_Marcha">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Μαργαρίτα Μάρχα</rdfs:label>
+    <age>11</age>
+    <type>Κορίτσι</type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Olga">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Όλγα</rdfs:label>
+    <occupation>Οικονόμος</occupation>
+    <worksFor rdf:resource="http://example.org/esperos#Marchas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#loves">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#isFriendOf">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Giagia">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Γιαγιά</rdfs:label>
+    <occupation>Πρώην Σαντέζα</occupation>
+    <trait>Γλυκιά</trait>
+    <loves rdf:resource="http://example.org/esperos#Danae_Marcha"/>
+    <fears rdf:resource="http://example.org/esperos#Marchas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#caresFor">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#trait">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#isParentOf">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Fani_Pitsila">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Φανή Πιτσιλά</rdfs:label>
+    <trait>Ενοχλητική</trait>
+    <trait>Παρεμβατική</trait>
+    <isSiblingOf rdf:resource="http://example.org/esperos#Dondos_Pitsilas"/>
+    <loves rdf:resource="http://example.org/esperos#Glafkos_Petroxoritis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Marchas">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Μάρχας</rdfs:label>
+    <occupation>Πρώην Συνταγματάρχης</occupation>
+    <trait>Αυστηρός</trait>
+    <trait>Μονόχνοτος</trait>
+    <hits rdf:resource="http://example.org/esperos#Danae_Marcha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Them_Pitsilas">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Θεμιστοκλής Πιτσιλάς</rdfs:label>
+    <occupation>Γιατρός</occupation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Adelfos">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Αδελφός</rdfs:label>
+    <trait>Άρρωστος</trait>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Amilitos_Filos">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Αμίλητος Φίλος</rdfs:label>
+    <trait>Πρόσωπο Κλειδί</trait>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#loved">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Suzanna_Salani">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Σουζάνα Σαλάνη</rdfs:label>
+    <trait>Ακατάδεχτη</trait>
+    <role>Θεία</role>
+    <caresFor rdf:resource="http://example.org/esperos#Glafkos_Petroxoritis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Star">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Pigi">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Πηγή</rdfs:label>
+    <occupation>Οικονόμος</occupation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Esperos">
+    <rdf:type rdf:resource="http://example.org/esperos#Star"/>
+    <rdfs:label>Έσπερος</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#fears">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Theano_Pitsila">
+    <rdf:type rdf:resource="http://example.org/esperos#Character"/>
+    <rdfs:label>Θεανώ Πιτσιλά</rdfs:label>
+    <trait>Αριστοκράτισσα της Υπαίθρου</trait>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#occupation">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#worksFor">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#role">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#age">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#observes">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/esperos#Character">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+</rdf:RDF>
